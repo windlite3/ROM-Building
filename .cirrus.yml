@@ -48,31 +48,10 @@ task:
 
        - sudo bash setup/android_build_env.sh
 
-       - cd ~
+       - cd 
 
-      
-
-  Neofetch_script:
-
-       - neofetch
-
-  Storage-Checker_script:
-
-      - df -h
-
-      - lsblk
-
-      - ls -l -a -h
-      
-Prepare-For-Building_script:
-
-- echo "=============================="
-
-- echo "Prepare For Building"
-
-- echo "=============================="
-
-- mkdir lineage19
+    
+ - mkdir lineage19
 
 - cd lineage19
 
@@ -82,41 +61,14 @@ Prepare-For-Building_script:
 
 - repo sync --force-sync --no-tags --no-clone-bundle -c
 
-Sync-Finished_script:
-
-- echo "================"
-
-- echo "Sync Finished"
-
-- echo "================"
-
-Start-Building_script:
-
-- echo "Start Build"
-
 - . build/envsetup.sh
 
 - lunch lineage_gtaxllte-userdebug
 
 - mka otapackage
 
-- cd 
-
-Build-Finished_script:
-
-- echo "======================"
-
-- echo "Build Finished"
 
 Upload_script:
-
-      - echo "============================"
-
-      - echo "Uploading the Build..."
-
-      - echo "============================"
-
-      - cd lineage19
 
       - cd out/target/product/"$DEVICE"
 
