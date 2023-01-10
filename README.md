@@ -9,9 +9,6 @@ A Free CI to Build Custom ROMS
 3. Create a Pull Reuest.
 4. Go to [cirrus-ci.com](https://cirrus-ci.com) And see the Build Logs.
 
-## Credits
-- [mrx7014](https://github.com/mrx66666) - For Making this CI
-
 ## Contact US 
 
 - Telegram: https://t.me/mrx7014
