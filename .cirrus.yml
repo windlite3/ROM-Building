@@ -2,15 +2,15 @@ task:
 
   name: "Setting Up, Syncing, Building and Uploading..."
 
-  timeout_in: 4h
+  timeout_in: 10h
 
   container:
 
       image: ubuntu:20.04
 
-      cpu: 8
+      cpu: 24
 
-      memory: 32G
+      memory: 12G
 
   
 
