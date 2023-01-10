@@ -1,5 +1,6 @@
 task:
-     name: "Setting Up, Syncing, Building and Uploading..."
+     
+   name: "Setting Up, Syncing, Building and Uploading..."
      
   timeout_in: 4h
   
