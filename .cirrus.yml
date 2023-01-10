@@ -10,7 +10,7 @@ task:
 
       cpu: 8
 
-      memory: 120G
+      memory: 32G
 
   
 
