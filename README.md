@@ -14,4 +14,4 @@ A Free CI to Build Custom ROMS
 
 ## Contact US 
 
-- Telegram ===> https://t.me/mrx7014
+- Telegram: https://t.me/mrx7014
