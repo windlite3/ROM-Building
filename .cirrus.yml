@@ -8,7 +8,7 @@ task:
 
       image: ubuntu:20.04
 
-      cpu: 9
+      cpu: 8
 
       memory: 120G
 
