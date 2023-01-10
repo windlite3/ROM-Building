@@ -1,14 +1,17 @@
-# ROM-Building
-That's Repo is For Building Custom Roms By CirrusCI.
+#ROM-Building
+A Free CI to Build Custom ROMS
 
-1: Fork This Repo 
+## How to Use?
 
-2: Edit (.cirrus.yml) File To What You Want 
+### - Build via a PR (Pull Request)
+1. Fork [this Repo]
+2. Edit ```.cirrus.yml``` (Only) According to your Needs.
+3. Create a Pull Reuest.
+4. Go to [cirrus-ci.com](https://cirrus-ci.com) And see the Build Logs.
 
-3: Click Save changes (prefared:Make A New Branch And Save Changes In It) 
+## Credits
+- [mrx7014](https://github.com/mrx66666) - For Making this CI
 
-4: Open Pull requests And Make A New Pull request 
+## Contact US 
 
-5: Open A Pull request And Click On Details To See A Building Process in CirrusCI 
-
-Contact Us On Telegram: https://t.me/mrx7014
+. Telegram [mrx7014] (https://t.me/mrx7014)
