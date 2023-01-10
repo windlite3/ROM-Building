@@ -48,21 +48,21 @@ task:
 
        - cd 
        
-       - mkdir lineage19
+       - mkdir evo
 
-       - cd lineage19
+       - cd evo
 
-       - repo init -u https://github.com/LineageOS/android.git -b lineage-19.1
+       - repo init -u https://github.com/Evolution-X/manifest -b tiramisu
 
-       - git clone https://github.com/TALUAtGitHub/gtaxl-manifests.git -b lineage-19.1 .repo/local_manifests
+       - git clone https://github.com/OmarAlCoptan/local_manifest.git -b gtaxllte .repo/local_manifests
 
        - repo sync --force-sync --no-tags --no-clone-bundle -c
 
        - . build/envsetup.sh
 
-       - lunch lineage_gtaxllte-userdebug
+       - lunch evolution_gtaxllte-userdebug
 
-       - mka otapackage
+       - mka evolution
 
 
 Upload_script:
