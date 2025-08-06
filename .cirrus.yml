@@ -52,9 +52,9 @@ task:
 
        - cd evo
 
-       - repo init -u https://github.com/Evolution-X/manifest -b udc
+       - repo init -u https://github.com/windlite3/manifest-evolution -b tiramisu
 
-       - git clone https://github.com/OmarAlCoptan/local_manifest.git -b evo-4.19 .repo/local_manifests
+       - git clone https://github.com/windlite3/c0pt4n_local_manifest.git -b evo-4.19 .repo/local_manifests
 
        - repo sync --force-sync --no-tags --no-clone-bundle -c
 
