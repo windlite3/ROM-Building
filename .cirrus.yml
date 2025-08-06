@@ -52,7 +52,7 @@ task:
 
        - cd evo
 
-       - repo init -u https://github.com/windlite3/manifest-evolution -b main
+       - repo init -u https://github.com/Evolution-X/manifest -b udc
 
        - git clone https://github.com/OmarAlCoptan/local_manifest.git -b evo-4.19 .repo/local_manifests
 
