@@ -48,21 +48,21 @@ task:
 
        - cd 
        
-       - mkdir evo
+       - mkdir ar12
 
-       - cd evo
+       - cd ar12
 
-       - repo init -u https://github.com/windlite3/manifest-evolution -b tiramisu
+       - repo init -u https://github.com/ArrowOS/android_manifest -b arrow-12.0
 
-       - git clone https://github.com/windlite3/c0pt4n_local_manifest.git -b evo-4.19 .repo/local_manifests
+       - git clone https://github.com/windlite3/arrow12_local_manifests.git -b main .repo/local_manifests
 
        - repo sync --force-sync --no-tags --no-clone-bundle -c
 
        - . build/envsetup.sh
 
-       - lunch evolution_lavender-userdebug
+       - lunch arrow_lavender-userdebug
 
-       - mka evolution
+       - m otapackage
 
 
 Upload_script:
