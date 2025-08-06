@@ -36,9 +36,9 @@ task:
 
        - sudo ln -sf /usr/bin/python2 /usr/bin/python
 
-       - git config --global user.name "Sushrut1101"
+       - git config --global user.name "windlite3"
 
-       - git config --global user.email "guptasushrut@gmail.com"
+       - git config --global user.email "windlite3@gmail.com"
 
        - git clone https://github.com/akhilnarang/scripts.git ~/scripts
 
@@ -52,7 +52,7 @@ task:
 
        - cd evo
 
-       - repo init -u https://github.com/Evolution-X/manifest -b tiramisu
+       - repo init -u https://github.com/windlite3/manifest-evolution -b main
 
        - git clone https://github.com/OmarAlCoptan/local_manifest.git -b evo-4.19 .repo/local_manifests
 
@@ -60,7 +60,7 @@ task:
 
        - . build/envsetup.sh
 
-       - lunch evolution_gtaxllte-userdebug
+       - lunch evolution_lavender-userdebug
 
        - mka evolution
 
