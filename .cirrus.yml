@@ -48,13 +48,13 @@ task:
 
        - cd 
        
-       - mkdir ar12
+       - mkdir ar13
 
-       - cd ar12
+       - cd ar13
 
-       - repo init -u https://github.com/ArrowOS/android_manifest -b arrow-12.1
+       - repo init -u https://github.com/ArrowOS/android_manifest -b arrow-13.1
 
-       - git clone https://github.com/windlite3/arrow12_local_manifests.git -b 4.19 .repo/local_manifests
+       - git clone https://github.com/windlite3/local_manifests.git -b arrow-13.1 .repo/local_manifests
 
        - repo sync --force-sync --no-tags --no-clone-bundle -c
 
