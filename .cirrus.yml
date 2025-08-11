@@ -52,15 +52,15 @@ task:
 
        - cd ar13
 
-       - repo init -u https://github.com/ArrowOS/android_manifest -b arrow-13.1
+       - repo init -u https://github.com/Evolution-X/manifest -b udc --git-lfs --depth=1
 
-       - git clone https://github.com/windlite3/local_manifests.git -b arrow-13.1 .repo/local_manifests
+       - git clone https://github.com/windlite3/local_manifests.git -b evo-udc .repo/local_manifests
 
        - repo sync --force-sync --no-tags --no-clone-bundle -c
 
        - . build/envsetup.sh
 
-       - lunch arrow_lavender-userdebug
+       - lunch evolution_lavender-userdebug
 
        - m bootimage
 
