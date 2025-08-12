@@ -52,7 +52,7 @@ task:
 
        - cd ar13
 
-       - repo init -u https://github.com/windlite3/evolution_manifest -b udc --git-lfs --depth=1
+       - repo init -u https://github.com/windlite3/evolution_manifest -b udc --git-lfs --depth=1 
 
        - git clone https://github.com/windlite3/local_manifests.git -b evo-udc .repo/local_manifests
 
