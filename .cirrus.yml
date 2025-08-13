@@ -52,15 +52,13 @@ task:
 
        - cd ar13
 
-       - repo init -u https://github.com/LineageOS/android.git -b lineage-22.0 --git-lfs --depth=1
-
-       - git clone https://github.com/windlite3/local_manifests.git -b lineage-22.0 .repo/local_manifests
+       - repo init -u https://github.com/CalyxOS-Lavender/platform_manifest.git -b android15-qpr2 --git-lfs --depth=1
 
        - repo sync --force-sync --no-tags --no-clone-bundle -c
 
        - . build/envsetup.sh
 
-       - lunch lineage_lavender-userdebug
+       - lunch calyx_lavender-userdebug
 
        - m bootimage
 
