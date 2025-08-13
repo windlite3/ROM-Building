@@ -56,9 +56,9 @@ task:
 
        - repo sync --force-sync --no-tags --no-clone-bundle -c
 
-       - . build/envsetup.sh
+       - source build/envsetup.sh
 
-       - lunch calyx_lavender-userdebug
+       - breakfast lavender userdebug
 
        - m bootimage
 
