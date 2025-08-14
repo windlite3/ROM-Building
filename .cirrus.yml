@@ -52,9 +52,9 @@ task:
 
        - cd ar13
 
-       - repo init -u https://github.com/ProjectInfinity-X/manifest.git -b 16 --git-lfs --depth=1
+       - repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1
        
-       - git clone https://github.com/windlite3/local_manifests.git -b infinity-16 .repo/local_manifests
+       - git clone https://github.com/windlite3/local_manifests.git -b lineage-21.0 .repo/local_manifests
        
        - repo sync --force-sync -c
 
