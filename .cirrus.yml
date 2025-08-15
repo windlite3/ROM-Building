@@ -54,7 +54,7 @@ task:
 
        - repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs --depth=1
        
-       - git clone https://github.com/windlite3/local_manifests.git -b lineage-21.0 .repo/local_manifests
+       - git clone https://github.com/Lavender-LineageOS/local_manifests.git -b main .repo/local_manifests
        
        - repo sync --force-sync -c
 
