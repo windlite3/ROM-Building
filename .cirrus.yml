@@ -60,7 +60,7 @@ task:
 
        - source build/envsetup.sh
 
-       - lunch infinity_lavender-userdebug
+       - lunch calyx_lavender-userdebug
 
        - m bootimage
 
