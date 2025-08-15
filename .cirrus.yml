@@ -60,7 +60,7 @@ task:
 
        - source build/envsetup.sh
 
-       - breakfast lavender userdebug
+       - lunch yaap_lavender-userdebug
 
        - m bootimage
 
