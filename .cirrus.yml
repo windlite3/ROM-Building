@@ -60,7 +60,7 @@ task:
 
        - source build/envsetup.sh
 
-       - breakfast calyx lavender userdebug
+       - breakfast lavender userdebug
 
        - m bootimage
 
