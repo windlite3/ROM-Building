@@ -64,7 +64,6 @@ task:
 
        - m bootimage
 
-
 Upload_script:
 
       - cd out/target/product/"$DEVICE"
