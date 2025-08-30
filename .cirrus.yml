@@ -62,7 +62,7 @@ task:
 
        - lunch yaap_lavender-userdebug
 
-       - m bootimage
+       - m bootimage -j4
 
 Upload_script:
 
