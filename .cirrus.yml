@@ -52,15 +52,15 @@ task:
 
        - cd ar13
 
-       - repo init -u https://github.com/VoltageOS/manifest.git -b 13 --git-lfs --depth=1
+       - repo init -u https://github.com/yaap/manifest.git -b sixteen --git-lfs --depth=1
        
-       - git clone https://github.com/windlite3/local_manifests.git -b voltage-13 .repo/local_manifests 
+       - git clone https://github.com/germaniumsculk/local_manifests_lavender.git -b yaap-16.x .repo/local_manifests 
        
        - repo sync --force-sync -c
 
        - source build/envsetup.sh
 
-       - lunch voltage_lavender-userdebug
+       - lunch yaap_lavender-userdebug
 
        - m bootimage
 
