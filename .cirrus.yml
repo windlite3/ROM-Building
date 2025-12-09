@@ -52,15 +52,15 @@ task:
 
        - cd ar13
 
-       - repo init -u https://github.com/yaap/manifest.git -b sixteen --git-lfs --depth=1
+       - repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 16 -g default,-mips,-darwin,-notdefault
        
-       - git clone https://github.com/germaniumsculk/local_manifests_lavender.git -b yaap-16.x .repo/local_manifests 
+       - git clone https://github.com/germaniumsculk/local_manifests_lavender -b infinityx-3.x .repo/local_manifests 
        
        - repo sync --force-sync -c
 
        - source build/envsetup.sh
 
-       - lunch yaap_lavender-userdebug
+       - lunch infinity_lavender-user
 
        - m bootimage
 
